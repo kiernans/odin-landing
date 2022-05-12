@@ -1,18 +1,30 @@
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .dark {
     display: flex;
     background-color: #1F2937;
     flex-flow: column wrap;
 }
 
-.dark .headers {
-    flex-direction: row;
-    border: 2px solid red;
-    justify-content: space-evenly;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 98%;
+    background-color: #1F2937;
+    color: white;
+    
+}
+
+.navbar .header.logo {
+    margin-left: 100px;
+}
+
+.navbar .links {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 100px;
 }
 
 footer {
@@ -47,7 +59,6 @@ button {
 
 .header.logo {
     font-size: 24px;
-    color: #f9faf8;
 }
 
 .information {
@@ -63,8 +74,8 @@ button {
 }
 
 .mainimg {
-    height: 250px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 }
 
 .white img {
