@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 2px solid red;
+}
+
+.dark {
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    background-color: #1F2937;
+}
+
+.tan {
+    background-color: #E5E7EB;
+}
+
+.green {
+    background-color: #3882F6;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e6e7eb;
+
+}
+
+.header.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
