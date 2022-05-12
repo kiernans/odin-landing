@@ -61,3 +61,13 @@ button {
     font-weight: lighter;
     color: #1f2937;
 }
+
+.mainimg {
+    height: 250px;
+    width: 500px;
+}
+
+.white img {
+    height: 150px;
+    width: 150px;
+}
